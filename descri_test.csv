@@ -1,0 +1,98 @@
+test_id,description,expected
+html_1,"<html>
+<head>
+</head>
+
+<body>
+The content of the document............
+</body>
+
+</html>","
+<head>
+</head>
+
+
+The content of the document............
+</body>
+
+"
+html_2,"<table> 
+  <tr> 
+    <th>Month</th> 
+    <th>Savings</th> 
+  </tr> 
+  <tr> 
+    <td>January</td> 
+    <td>$100</td> 
+  </tr> 
+</table> ","<table> 
+  <tr> 
+    <th>Month</th> 
+    <th>Savings</th> 
+  </tr> 
+  <tr> 
+    <td>January</td> 
+    <td>$100</td> 
+  </tr> 
+</table> "
+html_3,"<body> 
+        <div class = ""gfg"">GeeksforGeeks</div> 
+        <div class = ""geeks""><dir> Tag</div> 
+        <p>List of all computer science subjects:</p> 
+            <dir> 
+                <li>Operating system</li> 
+                <li>Data Structures</li> 
+                <li>computer network</li> 
+                <li>Dbms</li> 
+                <li>Oops</li> 
+            </dir> 
+    </body> "," 
+        <div class = ""gfg"">GeeksforGeeks</div> 
+        <div class = ""geeks""><dir> Tag</div> 
+        <p>List of all computer science subjects:</p> 
+            <dir> 
+                <li>Operating system</li> 
+                <li>Data Structures</li> 
+                <li>computer network</li> 
+                <li>Dbms</li> 
+                <li>Oops</li> 
+            </dir> 
+     "
+js_1,"<script>
+document.getElementById(""demo"").innerHTML = ""Hello JavaScript!"";
+</script>test",test
+js_2,"<script type=""text/javascript"">
+  alert(""Hello World!"");
+</script>test",test
+ahref_1,"<a href=""https://www.w3schools.com"">Visit Schools</a>",Visit Schools
+sty_1,"<title>HTML <xmp> Tag</title> 
+    <style> 
+        h1 { 
+            color: green; 
+        } 
+    </style> ","<title>HTML <xmp> Tag</title> 
+    "
+sty_2,"<h1 style=""color:blue;"">This is a Blue Heading</h1>",<h1 >This is a Blue Heading</h1>
+sty_3,"
+<head>
+  <link rel=""stylesheet"" href=""styles.css"">
+</head>
+
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+
+","
+<head>
+  
+</head>
+
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+
+"
+can_1,"<canvas id=""myCanvas"" width=""200"" height=""100"" style=""border:1px solid #000000;"">test
+</canvas>",test
